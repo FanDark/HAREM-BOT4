@@ -485,23 +485,17 @@ ${menuVC}
     Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break*/
     
-    case 'grupos': 
-    case 'groups': 
-    case 'dylux': 
+    case 'grupo': 
+    case 'group': 
+    case 'E.H.D Noelle Silva ': 
     gps = `
-≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
+≡  *E.H.D Noelle Silva  ┃ ᴮᴼᵀ*  GRUPO
 
-▢ ${msg.gp} 1
-https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK
+▢ ${msg.gp} 
+https://chat.whatsapp.com/JbhpLQswDrjIJvhiBkQEMd
 
-▢ ${msg.gp} 2
-https://chat.whatsapp.com/CDUqNRu5Kh5KY5uqQI0BKE
-
-▢ ${msg.gp} 3
-https://chat.whatsapp.com/FSVDTytQxnTIPx8t8wBWeM
-
-▢ *YouTube*
-• https://www.youtube.com/fg98f
+▢ *Facebook*
+• https://www.facebook.com/ElharemdeNoelle
 `
 m.reply(gps)
 break 
@@ -579,8 +573,7 @@ case 'developer':
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/59172945992 
+▢ Instagram : https://www.instagram.com/elharemde_noelle/
 
 *≡ SCRIPT*
 ▢ Git : ${package.homepage} 
@@ -635,7 +628,7 @@ prefg = await fetchJson(`https://api.simsimi.net/v2/?text=${value}&lc=${cekBahas
  m.reply(`≡ *PREGUNTAS*
  
 ▢ *Pregunta:* ${value}
-▢ *Respuesta :* ${prefg.success.replace('simsimi', 'DyLux').replace('Simsimi', 'DyLux').replace('sim simi', 'DyLux')}`) 
+▢ *Respuesta :* ${prefg.success.replace('simsimi', 'Noelle').replace('Simsimi', 'Noelle').replace('sim simi', 'Noelle')}`) 
 break 
 
 case 'afk':
