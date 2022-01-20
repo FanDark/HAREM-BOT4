@@ -2196,7 +2196,7 @@ switch(VoiceCommand) {
   
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `🌀𝑬.𝑯.𝑫. 𝑵𝒐𝒆𝒍𝒍𝒆 𝑺𝒊𝒍𝒗𝒂🌀
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -2204,7 +2204,7 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
+• https://www.facebook.com/ElharemdeNoelle 
 
 ${readMore}
 ${menu(prefix)} 
@@ -2247,11 +2247,7 @@ ${menu(prefix)}
 }
 
 
-/**
- * url 1 = https://api.simsimi.net/v2/?text=${budy}&lc=id&cf=false
- * url 2 = https://api-sv2.simsimi.net/v2/?text=${budy}&lc=id&cf=false 
- * chatbot // configúrelo como desee, elija uno si da un error
-*/
+
 
 if(!isCmd && isChatbot === true){
  // if(!mek.isBaileys) return
